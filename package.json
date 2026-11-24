@@ -1,0 +1,14 @@
+{
+  "name": "board-state-copies",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel --filter \"./apps/*\" dev",
+    "dev:jotai": "pnpm --filter @board/jotai dev",
+    "dev:mobx": "pnpm --filter @board/mobx dev",
+    "dev:zustand": "pnpm --filter @board/zustand dev",
+    "dev:tanstack": "pnpm --filter @board/tanstack dev",
+    "typecheck": "pnpm -r typecheck",
+    "build": "pnpm -r --filter \"./apps/*\" build"
+  },
+  "packageManager": "pnpm@10.33.2"
+}
